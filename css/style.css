@@ -5,14 +5,25 @@
 
 }
 
+
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
     top: 0px;
     background-color: black;
-    padding: 30px 0px;
+    padding: 15px 0px;
    
+}
+.navleft{
+    font-weight: 700;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    color: #f62944;
+}
+
+.navleft span{
+    color: white;
 }
 
 
@@ -20,11 +31,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 #navbar ul li {
     list-style: none;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 #navbar ul li a {
@@ -46,7 +58,7 @@
 .section1 {
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 410px;
     background-color: black;
     text-align: center;
 }
@@ -71,11 +83,14 @@
 }
 .profilepic img{
     border-radius: 50%;
-    box-shadow: 2px 2px 14px 3px #f62944;
+    box-shadow: 2px 2px 20px 2px #f62944;
    
 }
+.media{
+    margin: 8px 0px;
+}
 .medialogo {
-    width: 50px;
+    width: 40px;
     filter: brightness(0) invert(1);
     margin: 2px 3px;
 }
@@ -83,19 +98,121 @@
 .medialogo:hover {
     filter: none;
 }
+.services{
+    margin: 50px 5px;
+    display: flex;
+    flex-direction: column;
+}
+.services h2{
+    margin-top: -8px ;
+    font-size: 4rem;
+}
+.services h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #494949;
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+   
+}
+.service .box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 22%;
+    height: 370px;
+    background-color: white;
+    box-shadow: 4px 4px 10px #494949;
+    border-radius: 35px ;
+    transition: all 0.5s ease;
+    
+}
+.service .box:hover{
+    transform: translateY(-7px);
+
+}
+.box .boxh{
+    margin: 20px 0px 15px 30px;
+    font-weight: bold;
+}
+.box .content{
+    color: #494949;
+    font-size: 1.2rem;
+    margin: 5px 15px 5px 30px;
+    font-weight: bold;
+}
+
+#aboutme{
+    display: flex;
+    background-color: black;
+    padding: 50px;
+    width: 100%;
+    height: 370px ;
+}
+#aboutme .abouthead{
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right:3px solid #f62944 ;
+
+}
+#aboutme .aboutmepara{
+    margin: 5px 20px 5px 30px;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    color: #f62944;
+    
+
+}
+
+#contact-box form {
+    width: 33%;
+
+}
+
+#contact-box label {
+    font-size: 1.25rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: .5rem;
+    border-radius: 20px;
+    font-size: .8rem;
+}
+
+.copyright {
+    width: 100%;
+    border-top: 1px solid white;
+    padding: 8px 0px;
+    font-family: 'Dosis', sans-serif;
+    background-color: #f62944;
+    color: white;
+}
 
 
 .h-primary {
 
     font-size: 3.3rem;
-    padding: 10px;
     font-family: 'Dosis', sans-serif;
     color: #f62944;
 }
 .h-secondary {
 
     font-size: 1.3rem;
-    padding: 10px;
     font-family: 'Dosis', sans-serif;
     color: white;
 }
