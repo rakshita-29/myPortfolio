@@ -219,3 +219,80 @@
 .center{
     text-align: center;
 }
+
+
+@media screen and (max-width: 1200px) {
+    #navbar {
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    #navbar ul {
+        margin: auto;
+        padding-bottom: 8px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #navbar ul li a {
+        font-size: 1.5rem;
+        padding: 0px 7px;
+    }
+    .section1{
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    #home {
+       
+    }
+
+    .section1 {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .pp {
+   width: 250px;
+   height: auto;
+   position: absolute;
+   top: auto;
+   margin: auto;
+    }
+
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .service .box{
+        width: 90%;
+        height: 100%;
+        margin: 15px;
+        padding: 25px 0px;
+        
+    }
+
+
+    #aboutme {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        
+    }
+    #contact-box form {
+        width: 75%;
+    }
+    
+    .h-primary{
+        font-size: 2.5rem;
+    }
+    .h-secondary{
+        font-size: 1.5rem;
+    }
+}
+
